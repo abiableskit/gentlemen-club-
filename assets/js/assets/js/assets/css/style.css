@@ -1,0 +1,50 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  background-color: #111;
+  color: #eee;
+}
+
+header, footer {
+  background: #000;
+  color: white;
+  padding: 1em;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 10px;
+  color: #eee;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: gold;
+}
+
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+  background: url('../images/barbershop.jpg') center/cover no-repeat;
+}
+
+.btn {
+  display: inline-block;
+  background: gold;
+  padding: 10px 20px;
+  color: black;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+form {
+  max-width: 400px;
+  margin: 2em auto;
+  display: flex;
+  flex-direction: column;
+}
+
+form input, form select, form button {
+  margin: 10px 0;
+  padding: 10px;
+}
